@@ -1,0 +1,107 @@
+html,
+body {
+  height: 100%;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  margin: 0;
+  margin-bottom: 40px;
+}
+nav {
+  background-color: #ff7600;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav h1 a :hover {
+  background-color: red;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  text-align: center;
+  border-bottom: solid 0.1rem;
+}
+h4{
+  padding-top: 3rem;
+}
+footer {
+  height: 20%;
+  background-color: #ff7600;
+  box-shadow: 0 0 10px black;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+#link_autores {
+  margin-right: 2rem;
+}
+#link_autores :hover {
+  border-bottom: solid 0.2rem blanchedalmond;
+}
+#lista_autores {
+  text-align: center;
+}
+#lista_libros {
+  margin: 2rem;
+  font-size: medium;
+}
+#autor {
+  margin-top: 4rem;
+  padding-right: 1rem;
+}
+#libros {
+  margin-top: 0.7rem;
+}
+#autor :hover {
+  border-bottom: solid 0.2rem #ff7600;
+  padding: 0.5rem;
+}
+#contenedor {
+  height: 70%;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+.contenedor_libros {
+  padding-top: 10%;
+  /* margin-left: 10rem; */
+}
+.contenedor_libros_totales {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contenedor_libros ul li :hover {
+  border-bottom: solid 0.2rem #ff7600;
+  width: 4rem;
+}
+#contenedor_autor {
+  padding-top: 10%;
+}
+#link_libros {
+  margin: 1rem;
+}
+.datos_autor {
+  color: #ff7600;
+}
+.libros {
+  display: grid;
+  text-align: center;
+  margin-top: 10%;
+}
+#nombre{
+  font-size: x-large;
+}
